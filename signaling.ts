@@ -1,7 +1,7 @@
 import type { SignalingMessage } from './types.ts'
 import { initPeers, callee, registerPeer } from './peers.ts'
 import * as rtcConnection from './rtcConnection.ts'
-
+  
 export const serviceURL = 'http:localhost:8000'
 export const postURL = '/api/post'
 const sseURL = '/api/dispatch?id='
@@ -87,7 +87,7 @@ export const disconnect = () => {
  * @example dispatch('ResetTurn', {currentPeerIndex: 1} )    
  * @param event (string) - the event of interest
  * @param data (string | string[] | object) - optional data to report to subscribers
- */ // deno-lint-ignore ban-types
+ */
 export const dispatch = (event: string, data: string | string[] | object) => {
     if (subscriptions.has(event)) {
         const subs = subscriptions.get(event)!
