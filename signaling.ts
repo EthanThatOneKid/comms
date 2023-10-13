@@ -4,7 +4,7 @@ import * as rtcConnection from './rtcConnection.ts'
 
 export const serviceURL = 'http:localhost:8000'
 export const postURL = '/api/post'
-const sseURL = '/api/sse?id='
+const sseURL = '/api/dispatch?id='
 const DEBUG = true
 
 
