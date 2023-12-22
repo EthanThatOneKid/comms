@@ -9,7 +9,7 @@ I decided to simply use Deploy as an app and signal server, and then just rely o
 
 <br/>
 
- ![Alt text](Signaling.png)
+ ![Alt text](./media/Signaling.png)
  
 <br/>
 
@@ -24,7 +24,7 @@ The main issue with this architecture is that all peers are responsible for main
  
 <br/>
 
-![Alt text](comms.png)
+![Alt text](./media/comms.png)
  
 <br/>
 
