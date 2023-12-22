@@ -19,7 +19,7 @@ export let sse: EventSource
 
 /** Initializes this signal service event listeners */
 export const initialize = (name: string, id: string) => {
-     console.log(`Initializing Signaller - name: `, name)
+
     // setup peers
     initPeers(id, name)
     
