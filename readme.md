@@ -1,5 +1,12 @@
 # Deno WebRTC Communications 
 
+# Warning! 
+## Recent issues with using BroadcastChannel
+For some unknown reason, all of my applications that use Deno BroadcastChannel    
+no longer work reliably!  I'm not sure why this is so, but the problem has surfaced in many of my applications that use BC.
+
+# Do Not Use until further notice.
+
 This library is a support service for a Deno Deploy app:    
 https://github.com/nhrones/FreshDiceRTC
 
